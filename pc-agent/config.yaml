@@ -1,0 +1,17 @@
+serial:
+  port: auto        # auto-detect an Arduino Uno, or e.g. "COM8"
+  baud: 115200
+
+lhm:
+  url: "http://localhost:8085/data.json"
+
+ping:
+  targets: ["1.1.1.1"]
+  interval_s: 1
+  window: 20          # rolling samples for jitter/loss
+
+update:
+  system_hz: 1
+  network_hz: 1
+  heartbeat_hz: 1
+  audio_hz: 25

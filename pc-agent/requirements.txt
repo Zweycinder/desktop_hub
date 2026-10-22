@@ -1,0 +1,7 @@
+pyserial
+psutil
+pynvml
+pyyaml
+requests
+PyAudioWPatch
+numpy
